@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter} from 'react-router-dom';
 
 class App extends Component {
   render() {
+
+    // 
+    var helloWorld='welcome to the Road to learn Reat'
     return (
+     
       <div className="App">
+    
         <header className="App-header">
+        <h2> {helloWorld} </h2>
+        
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -24,5 +32,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
