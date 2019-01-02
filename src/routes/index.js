@@ -12,3 +12,4 @@ const BasicRoute=()=>(
     </HashRouter>
 )
 export default BasicRoute;
+
